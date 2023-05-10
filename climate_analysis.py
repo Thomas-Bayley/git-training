@@ -18,7 +18,11 @@ def FahrToCelsius(fahr):
 def FahrToKelvin(fahr):
     """Converts fahrenheit to Kelvin
 
-    
+    Args:
+        fahr (float): temperature in fahrenheit
+
+    Returns:
+       float: temperature in Kelvin    
     """
 
 
