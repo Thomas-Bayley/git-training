@@ -14,7 +14,14 @@ def FahrToCelsius(fahr):
     """
     celsius = ((fahr - 32) * (5/9)) 
     return celsius
+
 def FahrToKelvin(fahr):
+    """Converts fahrenheit to Kelvin
+
+    
+    """
+
+
     kelvin = FahrToCelsius(fahr) + 273.15
     return kelvin
 
@@ -27,3 +34,4 @@ for line in climate_data:
         celsius = FahrToCels(fahr)
         kelvin = FahrToKelvin(fahr)
         print('Max temperature in Celsius', celsius, 'Kelvin', kelvin)
+
